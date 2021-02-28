@@ -273,7 +273,7 @@ p {
 
 .box {
   display: flex;
-  width: 70%;
+  width: 80%;
   border: none;
   margin: 20px;
   padding: 20px 30px;
@@ -291,7 +291,7 @@ p {
 .viewButton {
   display: inline;
   float: right;
-  background-color: #fa743f;
+  background-color: #cb17eb;
   color: white;
   border: none;
 }
