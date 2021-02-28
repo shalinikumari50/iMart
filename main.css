@@ -323,3 +323,18 @@ p {
   height: 140px;
   padding: 5px;
 }
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  width: 75%;
+  margin: 10px auto;
+}
+.smallBox {
+  color: white;
+  background: #333333;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 20px;
+}
