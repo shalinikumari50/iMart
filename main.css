@@ -1,149 +1,325 @@
 * {
-    font-family: "Montserrat", sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .twitter {
-    display: block;
-    background: #43b4ff;
-    border-color: #43b4ff;
-    color: #212121;
-    width: 300px;
-    height: 40px;
-    font-weight: 800;
-    margin: 20px auto;
-  }
-  .info {
-    color: white;
-  }
-  .drop {
-    margin-bottom: 30px;
-  }
-  
-  .rightBlock {
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .notify {
-    display: block;
-    background: #6aebf8;
-    border-color: #6aebf8;
-    color: #212121;
-    width: 300px;
-    height: 40px;
-    font-weight: 800;
-    margin-top: 20px;
-    border-radius: 18px;
-  }
-  .blackButton {
-    display: block;
-    background: #333333;
-    border-color: #333333;
-    color: white;
-    border-radius: 18px;
-    width: 300px;
-    height: 40px;
-    font-weight: 800;
-    margin: 30px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  i {
-    padding-right: 10px;
-  }
-  .google {
-    display: block;
-    background: #eb5757;
-    border-color: #eb5757;
-    color: #212121;
-    width: 300px;
-    height: 40px;
-    font-weight: 800;
-    margin: 20px auto;
-  }
-  
-  .facebook {
-    display: block;
-    background: #2f80ed;
-    border-color: #2f80ed;
-    color: #212121;
-    width: 300px;
-    margin: 20px auto;
-    height: 40px;
-    font-weight: 800;
-  }
-  
-  .login {
-    background: #6aebf8;
-    border-color: #6aebf8;
-    color: #212121;
-    width: 100px;
-    margin: 20px auto;
-    height: 40px;
-    font-weight: 800;
-  }
-  .login:hover {
-    background: #6aebf8;
-    border-color: #6aebf8;
-    color: #212121;
-    width: 100px;
-    margin: 20px auto;
-    height: 40px;
-    font-weight: 800;
-  }
-  .signin {
-    padding: 30px 40px;
-    width: 80%;
-    background: #212121;
-    border: 1.05139px solid rgba(255, 255, 255, 0.5);
-    box-sizing: border-box;
-  }
-  
-  .emailField {
-    background: #212121;
-    border: 1.05139px solid rgba(255, 255, 255, 0.5);
-    box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 40px;
-  }
-  
-  .emailField:focus {
-    background: #212121;
-    border: 1.05139px solid rgba(255, 255, 255, 0.5);
-    box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .passwordField {
-    background: #212121;
-    border: 1.05139px solid rgba(255, 255, 255, 0.5);
-    box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .passwordField:focus {
-    background: #212121;
-    border: 1.05139px solid rgba(255, 255, 255, 0.5);
-    box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .heading {
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .here {
-    color: cyan;
-  }
-  button .login {
-    text-decoration: none;
-  }
-  
-  button .login:hover {
-    text-decoration: none;
-  }
-  
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.twitter {
+  display: block;
+  background: #43b4ff;
+  border-color: #43b4ff;
+  color: #212121;
+  width: 300px;
+  height: 40px;
+  font-weight: 800;
+  margin: 20px auto;
+}
+.info {
+  color: white;
+}
+.drop {
+  margin-bottom: 30px;
+}
+
+.rightBlock {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.notify {
+  display: block;
+  background: #6aebf8;
+  border-color: #6aebf8;
+  color: #212121;
+  width: 300px;
+  height: 40px;
+  font-weight: 800;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+.blackButton {
+  display: block;
+  background: #333333;
+  border-color: #333333;
+  color: white;
+  border-radius: 18px;
+  width: 300px;
+  height: 40px;
+  font-weight: 800;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  padding-right: 10px;
+}
+.google {
+  display: block;
+  background: #eb5757;
+  border-color: #eb5757;
+  color: #212121;
+  width: 300px;
+  height: 40px;
+  font-weight: 800;
+  margin: 20px auto;
+}
+
+.facebook {
+  display: block;
+  background: #2f80ed;
+  border-color: #2f80ed;
+  color: #212121;
+  width: 300px;
+  margin: 20px auto;
+  height: 40px;
+  font-weight: 800;
+}
+
+.login {
+  background: #6aebf8;
+  border-color: #6aebf8;
+  color: #212121;
+  width: 100px;
+  margin: 20px auto;
+  height: 40px;
+  font-weight: 800;
+}
+.login:hover {
+  background: #6aebf8;
+  border-color: #6aebf8;
+  color: #212121;
+  width: 100px;
+  margin: 20px auto;
+  height: 40px;
+  font-weight: 800;
+}
+.signin {
+  padding: 30px 40px;
+  width: 80%;
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+}
+
+.emailField {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+}
+
+.emailField:focus {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.passwordField {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+.passwordField:focus {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.heading {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.here {
+  color: cyan;
+}
+button .login {
+  text-decoration: none;
+}
+
+button .login:hover {
+  text-decoration: none;
+}
+.inputField {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputField:focus {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.searchBar {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+}
+
+.theme {
+  color: #a108bc !important;
+}
+.icons {
+  color: #a108bc;
+
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.material-icons {
+  font-size: 28px;
+}
+.submit {
+  display: block;
+  background: #cb17eb;
+  border-color: #cb17eb;
+  color: #212121;
+  width: 180px;
+  height: 40px;
+  font-weight: 800;
+  margin: 30px auto;
+  border-radius: 24px;
+}
+.submit:hover {
+  background: #a108bc;
+  border-color: #a108bc;
+  color: #212121;
+  font-weight: 800;
+  text-decoration: none;
+}
+::placeholder {
+  color: white !important;
+}
+.curve {
+  border-radius: 20px;
+}
+
+.category {
+  background: #333333;
+  width: 100%;
+  border: none;
+}
+.upload {
+  background: #333333;
+  border: none;
+  width: 120px;
+  height: 100px;
+}
+.backup_outlined {
+  font-size: 50px !important;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 45px;
+}
+.lab {
+  display: inline;
+  color: white;
+}
+
+.head {
+  margin-top: 30px;
+  background: #333333;
+  border-radius: 18px;
+  padding: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.descrip {
+  color: white;
+  margin-top: 30px;
+  width: 90%;
+  text-align: justify;
+}
+.cat {
+  background: #333333;
+  border-radius: 18px;
+  text-align: center;
+  vertical-align: middle;
+
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+p {
+  margin-bottom: 0;
+}
+.line {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  width: 70%;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: #333333;
+  border-radius: 24px;
+}
+.icon {
+  display: inline;
+}
+.desc {
+  display: inline;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.viewButton {
+  display: inline;
+  float: right;
+  background-color: #fa743f;
+  color: white;
+  border: none;
+}
+
+.viewButton:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.project {
+  margin: 10px auto;
+
+  align-items: center;
+}
+
+.uploadPhoto {
+  font-size: 100px !important;
+  color: #cb17eb;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-left: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -180px;
+}
+.uploadDP {
+  background: #333333;
+  border: none;
+  height: 140px;
+  padding: 5px;
+}
